@@ -1,0 +1,52 @@
+<html lang="es-Mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in | TESCI</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- SDKs de Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <!-- firebase js -->
+    <script src="./js/firbase.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section class="main-container">
+        <div class="container-login">
+            <div class="img-logeo">
+                <img src="./img/teacher.jpg" alt="">
+            </div>
+            <!-- formulario -->
+            <div class="logeo">
+                <!-- Logos -->
+                <div class="logeo-logos">
+                    <div class="logo-rino">
+                        <img src="./img/rino-logos.png" alt="">
+                    </div>
+                    <div class="logeo-img">
+                        <div class="logo-ia">
+                            <img src="./img/TESCI-LOGO.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--botones de acesso  -->
+                <div class="logeo-access">
+                    <h1 class="h3">Iniciar sesion </h1>
+                    <button class="btn-login" onclick="emailLogin()">Iniciar sesion</button>
+
+                    <h2 class="h6">¿Aún no tienes cuenta ?</h2>
+                    <button class="btn-create" onclick="createUserWithEmail()">Crear cuenta </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

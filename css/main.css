@@ -1,0 +1,102 @@
+/* Estilo-login.css */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/*container login*/
+.main-container{
+    width: 80%;
+    margin-top: 10rem; 
+}
+.container-login{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-logeo img{
+    width: 50vmax;
+}
+.logeo{
+    background-color:#f4f4f4;
+    width: 85%;
+   
+}
+.logeo h2{
+    color: #555;
+    margin-top: 30px;
+}
+.logeo-logos{
+    display:inline-flex;
+    margin: 4rem;
+    padding: auto;
+}
+.logeo-logos .logo-rino{
+    padding-right: 5rem;
+    width: 50px;
+    height: 50px;
+}
+section {
+    background-color: #fffafa;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    display:block; /* Usa Flexbox para alinear sus hijos (img y p) horizontalmente */
+    flex-direction: column; /* Alinea los hijos en una columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto */
+    margin-top: 10px;
+}
+button {
+    color: #fff;
+    padding: 12px 24px;
+    margin: 10px 0;
+    border: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Añadido efecto de transformación a la transición */
+}
+.logeo-access h1{
+    font-weight: 600;
+    color: #000;
+}
+.btn-create{
+    background: #0099e5 ;
+    font-size: 12px;
+}
+.btn-create:hover{
+    background-color:#0983ac;
+    transform: scale(1.09);
+} 
+.btn-login{
+    background-color: #34bf49;  
+    font-size: 15px;
+}
+.btn-login:hover {
+    background-color:#5ABB3E ;
+    transform: scale(1.09); /* Al pasar el cursor, el botón se agranda un 5% */
+}
+.btn-login:active {
+    transform: scale(1.09); /* Al hacer click, el botón se encoge un 5% */
+}
+
+/* bafge */

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/estilo_principal.css">
+    <link rel="stylesheet" href="/css/chat.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand avatar m-0 " href="#">
+                <img src="/img/avatar.jpg"" alt=" Logo 1" class="logo-left">
+                <p class="nombre">Bienvenido a <span>INTELLECTUS.AI</span></p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./principal.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quienessomos.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/politicas.html">Politicas</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand logo" href="#">
+                <img src="./img/Tesci.png" alt="Logo 2" class="logo-right">
+            </a>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div id="myModal" style="display: none;">
+        <p>listo para una nueva aventura</p>
+    </div>
+    <div class="container">
+
+        <div class="row shadow-lg rounded-2 content-chat">
+            <div class="col-12">
+                <div class="chat-container">
+                    <div class="chatbox">
+                        <!-- Aquí irán los mensajes del chat -->
+                    </div>
+                    <textarea id="userInput" placeholder="Escribe tu respuesta..."></textarea>
+                </div>
+
+                <div class="d-grid gap-1 d-md-block text-center">
+                    <button id="sendButton" class="btn-gpt">Enviar</button>
+
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="menu-button" id="menuButton">
+            Menú
+        </div>
+        <div class="sidebar" id="sidebar">
+            <button id="increaseFontSize">Aumentar Tamaño de Fuente</button>
+            <button id="decreaseFontSize">Reducir Tamaño de Fuente</button>
+            <button id="toggleMonochrome">Cambiar a Blanco y Negro</button>
+            <button id="resetStyles">Restablecer Estilos</button>
+            <button id="closeMenu">Cerrar</button>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="./js/sweetalert2.js"></script>
+<script src="/js/main.js"></script>
+</html>

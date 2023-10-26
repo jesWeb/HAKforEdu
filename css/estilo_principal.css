@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* nav */
+nav {
+    background-color: #0099e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #fff; 
+    background-color: #5ABB3E ;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+
+
+
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* logo */
+.logo img {
+    width: 80px;
+}
+
+.nombre {
+    margin: 0;
+}
+
+.politic {
+    height: 70vh;
+    margin-top: 4rem;
+    background-color: #f3f4f6;
+    border-radius: 5px, 0, 5px, 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.politic-desc {
+    padding: 1em;
+    margin: 2em;
+}
+
+
+.content {
+    margin-top: 5em;
+}
+
+/*  */
+.menu-button {
+    position: fixed;
+    right: 50px;
+    top: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 360px;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    transition: right 0.3s;
+    z-index: 1;
+  }
+  
+  .content {
+    margin-right: 0;
+    transition: margin-right 0.3s;
+    padding: 20px;
+  }
+  
+  /* nav of options stiles  */
+  button {
+    /* display: block; */
+    margin: 10px 0 ;
+    background-color: #444;
+    color: white;
+    padding: 25px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+/* about Us */
+  .about-us{
+    margin-top: 6em;
+    text-align: start;
+  }
+
+.alcance{
+    height: 20vh;
+    /* background: red; */
+    padding: 2.5em;
+}
+
+.alcance p{
+    font-size: 15px;
+    font-style: normal;
+}
+
+.objetivo{
+    height: 20vh;
+    padding: 2.5em;
+}

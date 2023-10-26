@@ -1,0 +1,92 @@
+/* Estilo-login.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+button {
+    background-color: #39ea3f;
+    color: black;
+    padding: 12px 24px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Añadido efecto de transformación a la transición */
+}
+
+button:hover {
+    background-color: #2ff239;
+    transform: scale(2.05); /* Al pasar el cursor, el botón se agranda un 5% */
+}
+
+button:active {
+    transform: scale(2.95); /* Al hacer click, el botón se encoge un 5% */
+}
+
+article {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    justify-content: center; /* Centra los elementos hijos (secciones) horizontalmente */
+    align-items: center; /* Centra los elementos hijos (secciones) verticalmente */
+    gap: 20px; /* Añade un espacio entre las secciones */
+    width: 80%; /* Ancho general del artículo */
+    margin: 10px; /* Da un margen superior e inferior y centra el artículo horizontalmente */
+    padding: 20px; /* Espaciado alrededor del artículo */
+    box-shadow: 0 4px 8px rgba(0.2, 0.3, 0.2, 0.8); /* Sombra sutil para el artículo */
+    background-color: #a67ce5; /* Fondo blanco para el artículo */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+section {
+    display:block; /* Usa Flexbox para alinear sus hijos (img y p) horizontalmente */
+    flex-direction: column; /* Alinea los hijos en una columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto */
+    margin-top: 10px;
+}
+
+img {
+    max-width: 150px; /* Ancho máximo para las imágenes */
+    height: 150px; /* Ajusta la altura de la imagen proporcionalmente */
+    width: 180px; ;
+    border-radius: 8px; /* Esquinas redondeadas para la imagen */
+    margin-bottom: 15px; /* Espaciado debajo de la imagen */
+}
+
