@@ -41,41 +41,52 @@
 </header>
 
 <body>
+
     <div id="myModal" style="display: none;">
         <p>listo para una nueva aventura</p>
     </div>
+
+    <!--  -->
+    <div class="menu-button" id="menuButton">
+        Menú
+    </div>
+    <!--  -->
+    <div class="sidebar" id="sidebar">
+        <button id="increaseFontSize">Aumentar Tamaño de Fuente</button>
+        <button id="decreaseFontSize">Reducir Tamaño de Fuente</button>
+        <button id="toggleMonochrome">Cambiar a Blanco y Negro</button>
+        <button id="resetStyles">Restablecer Estilos</button>
+        <button id="closeMenu">Cerrar</button>
+    </div>
+    <!-- content -->
     <div class="container">
 
         <div class="row shadow-lg rounded-2 content-chat">
             <div class="col-12">
-                <div class="chat-container">
-                    <div class="chatbox">
-                        <!-- Aquí irán los mensajes del chat -->
-                    </div>
-                    <textarea id="userInput" placeholder="Escribe tu respuesta..."></textarea>
-                </div>
 
+
+                <div class="chat-container">
+                    <textarea id="output">
+
+                    </textarea>
+                </div>
+                <!-- Aquí irán los mensajes del chat -->
+                <div class="chatbox">
+                    <input type="text" placeholder="Preguntame" id="promt">
+                </div>
+                <!-- button -->
                 <div class="d-grid gap-1 d-md-block text-center">
                     <button id="sendButton" class="btn-gpt">Enviar</button>
 
                 </div>
             </div>
         </div>
-        <!--  -->
-        <div class="menu-button" id="menuButton">
-            Menú
-        </div>
-        <div class="sidebar" id="sidebar">
-            <button id="increaseFontSize">Aumentar Tamaño de Fuente</button>
-            <button id="decreaseFontSize">Reducir Tamaño de Fuente</button>
-            <button id="toggleMonochrome">Cambiar a Blanco y Negro</button>
-            <button id="resetStyles">Restablecer Estilos</button>
-            <button id="closeMenu">Cerrar</button>
-        </div>
+
 
     </div>
+    <script src="/js/main.js"></script>
+    <script src="./js/APP.js"></script>
+    <script src="./js/sweetalert2.js"></script>
 </body>
-<script src="script.js"></script>
-<script src="./js/sweetalert2.js"></script>
-<script src="/js/main.js"></script>
+
 </html>
